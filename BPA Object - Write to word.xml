@@ -1,0 +1,593 @@
+﻿<process name="Write to word" version="1.0" bpversion="5.0.10.0" narrative="" type="object" runmode="Exclusive" preferredid="a8ab7fdb-0c37-48cd-af25-be25689348f6">
+  <appdef>
+    <element name="Application Root">
+      <id>69ff64a5-48cb-4868-b51c-dad4ba17b3c1</id>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="e0a4d169-8502-4a10-9cd4-34a1bb0669bc" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="ccd292e1-5af9-47c6-847a-cd56e0ffe123" type="Normal" published="False">
+    <name>Action 1</name>
+    <view>
+      <camerax>83</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="e76d0b9c-9ddd-437f-9677-f82c4fcb283d" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>2bc597e7-0cf7-4172-9099-809ce87da8bf</onsuccess>
+  </stage>
+  <stage stageid="2bc597e7-0cf7-4172-9099-809ce87da8bf" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="2b1960d0-de1a-4b00-a7c9-0eacb5c24d27" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="e1e805da-82a3-4993-9373-dc99044ef222" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>e0a4d169-8502-4a10-9cd4-34a1bb0669bc</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="8498980f-4e58-4b2a-94a7-a49ae7e0735c" name="Start" type="Start">
+    <subsheetid>e0a4d169-8502-4a10-9cd4-34a1bb0669bc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>786aef84-3750-40cf-bf53-35a560b3007b</onsuccess>
+  </stage>
+  <stage stageid="786aef84-3750-40cf-bf53-35a560b3007b" name="End" type="End">
+    <subsheetid>e0a4d169-8502-4a10-9cd4-34a1bb0669bc</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="5cc45c53-cee7-4051-bec0-afb859a5d9b7" name="Action 1" type="SubSheetInfo">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="608b8c8b-2dde-4b91-838e-b183628bc360" name="Start" type="Start">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>f88d1c92-ee06-4795-9ea2-0dda401b6c81</onsuccess>
+  </stage>
+  <stage stageid="dcf41125-fdd2-4c20-a8d2-033dc9f7a85b" name="End" type="End">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>375</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1238b8c3-ed39-412e-940c-34258b0e92c8" name="Note1" type="Note">
+    <subsheetid>e0a4d169-8502-4a10-9cd4-34a1bb0669bc</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="28110d99-631f-4b92-b46d-2a7d4b768373" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f88d1c92-ee06-4795-9ea2-0dda401b6c81" name="Create instance" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="handle" stage="handle" />
+    </outputs>
+    <onsuccess>66a61764-f514-4863-88e8-8a7c5a44ad7c</onsuccess>
+    <resource object="MS Word VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="e48a3082-70b2-48c9-82f4-532c6c3dd4b5" name="handle" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b3ae087d-601c-4854-a5af-42ce87d19f69" name="Show Instance" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <resource object="MS Word VBO" action="Show" />
+  </stage>
+  <stage stageid="0922be27-1427-4107-bf62-0d9246d678ef" name="Document Name" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="66a61764-f514-4863-88e8-8a7c5a44ad7c" name="Create Document" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="documentname" stage="documentname" />
+    </outputs>
+    <onsuccess>2eeacc1a-2473-4af7-a78b-1ce2393058ae</onsuccess>
+    <resource object="MS Word VBO" action="Create Document" />
+  </stage>
+  <stage stageid="4b9b8fdf-cd45-470f-abed-2bf500f99968" name="Data1" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">SPRINT 1:
+Login on  naukri
+Search for automation jobs
+Download resume-----Shared folder
+Update the excel—Attachment 1
+Update excel with resume----Attachment 2
+Send an email with 2 attachment
+Job has run every day at 5PM
+Sprint 2:
+Login db
+Create table
+Alter table
+Insert 
+Update
+Select
+Export to excel
+Send mail
+Schedule 5 days at 4pm
+
+SPRINT 3:
+Open excel with data—excel1
+Perform excel---excel2
+Prepare charts---excel2
+Send mail---customer
+Schedule to run monthly 1 st day a 4pm
+SPRINT 4:
+Open an excel with some ctc details
+Prepare a salary slip
+Update it as a PDF
+Send email
+Schedule to run this 2nd day on the month to email at 4pm
+SPRINT 1:
+Login on  naukri
+Search for automation jobs
+Download resume-----Shared folder
+Update the excel—Attachment 1
+Update excel with resume----Attachment 2
+Send an email with 2 attachment
+Job has run every day at 5PM
+Sprint 2:
+Login db
+Create table
+Alter table
+Insert 
+Update
+Select
+Export to excel
+Send mail
+Schedule 5 days at 4pm
+
+SPRINT 3:
+Open excel with data—excel1
+Perform excel---excel2
+Prepare charts---excel2
+Send mail---customer
+Schedule to run monthly 1 st day a 4pm
+SPRINT 4:
+Open an excel with some ctc details
+Prepare a salary slip
+Update it as a PDF
+Send email
+Schedule to run this 2nd day on the month to email at 4pm
+SPRINT 1:
+Login on  naukri
+Search for automation jobs
+Download resume-----Shared folder
+Update the excel—Attachment 1
+Update excel with resume----Attachment 2
+Send an email with 2 attachment
+Job has run every day at 5PM
+Sprint 2:
+Login db
+Create table
+Alter table
+Insert 
+Update
+Select
+Export to excel
+Send mail
+Schedule 5 days at 4pm
+
+SPRINT 3:
+Open excel with data—excel1
+Perform excel---excel2
+Prepare charts---excel2
+Send mail---customer
+Schedule to run monthly 1 st day a 4pm
+SPRINT 4:
+Open an excel with some ctc details
+Prepare a salary slip
+Update it as a PDF
+Send email
+Schedule to run this 2nd day on the month to email at 4pm
+SPRINT 1:
+Login on  naukri
+Search for automation jobs
+Download resume-----Shared folder
+Update the excel—Attachment 1
+Update excel with resume----Attachment 2
+Send an email with 2 attachment
+Job has run every day at 5PM
+Sprint 2:
+Login db
+Create table
+Alter table
+Insert 
+Update
+Select
+Export to excel
+Send mail
+Schedule 5 days at 4pm
+
+SPRINT 3:
+Open excel with data—excel1
+Perform excel---excel2
+Prepare charts---excel2
+Send mail---customer
+Schedule to run monthly 1 st day a 4pm
+SPRINT 4:
+Open an excel with some ctc details
+Prepare a salary slip
+Update it as a PDF
+Send email
+Schedule to run this 2nd day on the month to email at 4pm
+SPRINT 1:
+Login on  naukri
+Search for automation jobs
+Download resume-----Shared folder
+Update the excel—Attachment 1
+Update excel with resume----Attachment 2
+Send an email with 2 attachment
+Job has run every day at 5PM
+Sprint 2:
+Login db
+Create table
+Alter table
+Insert 
+Update
+Select
+Export to excel
+Send mail
+Schedule 5 days at 4pm
+
+SPRINT 3:
+Open excel with data—excel1
+Perform excel---excel2
+Prepare charts---excel2
+Send mail---customer
+Schedule to run monthly 1 st day a 4pm
+SPRINT 4:
+Open an excel with some ctc details
+Prepare a salary slip
+Update it as a PDF
+Send email
+Schedule to run this 2nd day on the month to email at 4pm
+SPRINT 1:
+Login on  naukri
+Search for automation jobs
+Download resume-----Shared folder
+Update the excel—Attachment 1
+Update excel with resume----Attachment 2
+Send an email with 2 attachment
+Job has run every day at 5PM
+Sprint 2:
+Login db
+Create table
+Alter table
+Insert 
+Update
+Select
+Export to excel
+Send mail
+Schedule 5 days at 4pm
+
+SPRINT 3:
+Open excel with data—excel1
+Perform excel---excel2
+Prepare charts---excel2
+Send mail---customer
+Schedule to run monthly 1 st day a 4pm
+SPRINT 4:
+Open an excel with some ctc details
+Prepare a salary slip
+Update it as a PDF
+Send email
+Schedule to run this 2nd day on the month to email at 4pm
+</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="8c8b59bd-9e44-4c15-a646-a8134294d9fc" name="Message" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="95336ee5-ae76-4146-a6dd-899bee69c61a" name="Success" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7801f5aa-2b03-4ad4-8fa3-58de42fda51f" name="Show Document" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-90</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <resource object="MS Word VBO" action="Show" />
+  </stage>
+  <stage stageid="7bc1c773-aca9-4eb5-b446-d131ed716d51" name="documentname" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-105</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2eeacc1a-2473-4af7-a78b-1ce2393058ae" name="Type text" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="text" name="text" expr="[Data1]" />
+    </inputs>
+    <onsuccess>a4b88c6b-98fb-47f5-9ead-99b7b6b340f3</onsuccess>
+    <resource object="MS Word VBO" action="Type Text" />
+  </stage>
+  <stage stageid="a4b88c6b-98fb-47f5-9ead-99b7b6b340f3" name="Save" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="File Name" expr="&quot;C:\Users\SACHETAS\OneDrive\Desktop\New Microsoft Word Document.docx&quot;" />
+      <input type="text" name="documentname" expr="[documentname]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="documentname" stage="documentname1" />
+    </outputs>
+    <onsuccess>095cdc7e-2ec0-4847-9b85-f7ecf8254c3b</onsuccess>
+    <resource object="MS Word VBO" action="Save As" />
+  </stage>
+  <stage stageid="951aa3c3-eb83-4b06-a11b-4a1788b6ccc5" name="documentname1" type="Data">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="095cdc7e-2ec0-4847-9b85-f7ecf8254c3b" name="Close" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname1]" />
+    </inputs>
+    <onsuccess>3e0899b1-c0dc-4260-b40e-2744791850ad</onsuccess>
+    <resource object="MS Word VBO" action="Close" />
+  </stage>
+  <stage stageid="3e0899b1-c0dc-4260-b40e-2744791850ad" name="Exit" type="Action">
+    <subsheetid>ccd292e1-5af9-47c6-847a-cd56e0ffe123</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>285</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>dcf41125-fdd2-4c20-a8d2-033dc9f7a85b</onsuccess>
+    <resource object="MS Word VBO" action="Exit" />
+  </stage>
+</process>
